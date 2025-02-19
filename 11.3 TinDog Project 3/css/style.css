@@ -26,3 +26,28 @@
   height: 100px;
   border-radius: 50%;
 }
+
+body {
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  text-align: var(--bs-body-text-align);
+  -webkit-text-size-adjust: 100%;
+}
+
+#title {
+  background-color: rgb(248, 124, 165);
+}
+
+
+.footer {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+section {
+  display: block;
+  unicode-bidi: isolate;
+}
